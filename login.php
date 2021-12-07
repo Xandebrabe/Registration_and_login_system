@@ -1,8 +1,8 @@
 <?php
-    $servidor = "localhost";
-    $usuario = "root";
-    $senha = "9420112ca14w18U19zO11#";
-    $dbname = "memorialsite";
+    $servidor = "";
+    $usuario = "";
+    $senha = "";
+    $dbname = "";
   
     $connect = mysqli_connect($servidor, $usuario, $senha, $dbname);
     if (isset($_POST['login'])) {
